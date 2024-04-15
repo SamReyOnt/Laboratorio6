@@ -1,0 +1,192 @@
+body {
+	background: #da6de6;
+	color: #000000;
+	font-family: 'latoregular';
+	font-size: 14px;
+	margin: 0;
+	padding: 0;
+}
+a {
+	outline: none;
+}
+img {
+	border: none;
+}
+p {
+	line-height: 30px;
+	margin: 0;
+}
+	p a {
+		color: #000000;
+	}
+		p a:hover {
+			color: #000000;
+		}
+#header {
+	margin: 0 auto;
+	max-width: 960px;
+}
+#header h1 {
+	font-size: 50px;
+	font-weight: normal;
+	line-height: 50px;
+	margin: 0;
+	padding: 30px 0;
+	text-align: center;
+}
+	#header h1 a {
+		color: #ab50c9;
+		text-decoration: none;
+	}
+		#header h1 a span {
+			color: #ab50c9;
+			display: block;
+			font-family: 'nixie_oneregular';
+			font-size: 26px;
+			text-transform: uppercase;
+		}
+#body {
+	background: #ffffff;
+	margin: 1px auto 0;
+	max-width: 880px;
+	min-height: 827px;
+	overflow: hidden;
+	padding: 45px 40px 46px;
+}
+	#body > h2 {
+		color: #000000;
+		font-family: 'nixie_oneregular';
+		font-size: 35px;
+		font-weight: normal;
+		line-height: 30px;
+		margin: 0;
+		padding: 0 0 44px;
+	}
+#body img.figure {
+	display: block;
+	float: right;
+	margin: 200px 36px 46px 0;
+	max-width:80%;
+	width: auto;
+}
+#body div#tagline {
+	float: left;
+	margin: 100px 0 0 25px;
+	max-width: 400px;
+}
+	#body div#tagline h1 {
+		background: url(../img/bg-separator.png) no-repeat center bottom;
+		color: #000000;
+		font-family: 'nixie_oneregular';
+		font-size: 85px;
+		font-weight: normal;
+		line-height: 100px;
+		margin: 0;
+		padding: 0 0 55px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	#body div#tagline p {
+		color: #000000;
+		font-family: 'nixie_oneregular';
+		font-size: 80px;
+		line-height: 100px;
+		padding: 43px 0 0;
+		text-align: center;
+	}
+#body div.content {
+	overflow: hidden;
+}
+#body div.content > div {
+	float: left;
+	width: 510px;
+}
+#body div.content h3,
+#body form h3,
+#body ul.horarios li h3 {
+	font-family: 'nixie_oneregular';
+	font-size: 23px;
+	font-weight: normal;
+	line-height: 30px;
+	margin: 0;
+	padding: 25px 0 0;
+}
+#body div.content h3:first-child,
+#body div.content div div.section:first-child {
+	padding: 0;
+}
+#body div.content img.figure {
+	margin: 0 38px 46px 0;
+}
+#body div.content div div.section {
+	padding: 55px 0 0;
+	width: 430px;
+}
+#body div.content div div.section span {
+	display: block;
+	line-height: 30px;
+}
+#body div.content div ul {
+	list-style: none;
+	margin: 0;
+	overflow: hidden;
+	padding: 0 0 65px;
+}
+#body div.content div ul li {
+	float: left;
+	margin: 0 0 0 83px;
+	width: 207px;
+}
+#body div.content div ul li:first-child {
+	margin: 0;
+}
+#body div.content div ul li img {
+	display: block;
+	max-width: 100%;
+	width: auto;
+}
+#body div.content div ul li h4 {
+	font-family: 'nixie_oneregular';
+	font-size: 18px;
+	font-weight: normal;
+	margin: 0;
+	padding: 12px 0 0;
+	text-align: center;
+}
+	#body div.content div ul li p {
+		font-family: 'nixie_oneregular';
+		font-size: 16px;
+		font-weight: normal;
+		margin: 0;
+		padding: 12px 0 0;
+		text-align: center;
+	}
+table {
+	background: white;
+	width: 50%;
+	margin: 0 auto;
+	margin-top: 2%;
+	border-collapse: collapse;
+	text-align: center;
+}
+#footer {
+	margin: 0 auto;
+	max-width: 960px;
+	overflow: hidden;
+	padding: 30px 0 60px;
+}
+#footer div {
+	float: left;
+	width: 500px;
+}
+	#footer div span {
+		color: #e284e4;
+		display: block;
+		font-size: 26px;
+		line-height: 24px;
+	}
+	#footer div p {
+		color: #e497d7;
+		font-size: 12px;
+		line-height: 30px;
+	}
